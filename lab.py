@@ -4,7 +4,7 @@ def calculate_bmi(height,weight):
     print("value of height is: ", height)
     print("value of wight is: ", weight)
     
-    bmi = weight / (height*height)
+    bmi = round(weight / (height*height),2)
     print("value of bmi is: ", bmi)
     if bmi <18.5:
         print("BMI is underweight")
