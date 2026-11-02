@@ -20,7 +20,7 @@ def calculate_bmi(height,weight):
     return bmi, value
 
     
-bmi_oaASSASASutput = calculate_bmi(1.72,65)
+bmi_output = calculate_bmi(1.72,65)
 
 
 
